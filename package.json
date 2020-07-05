@@ -1,6 +1,8 @@
 {
   "name": "powerstationos",
+  "description": "PowerStation OS, Windows Shell App built with Electron and VueJS",
   "version": "0.1.0",
+  "license": "AGPL-3.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -13,6 +15,7 @@
   },
   "main": "background.js",
   "dependencies": {
+    "@types/electron-devtools-installer": "^2.2.0",
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
     "vue-class-component": "^7.2.3",
